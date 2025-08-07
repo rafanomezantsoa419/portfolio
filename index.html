@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="mg">
+<head>
+
+    <script type="application/id+json">
+        {
+
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rafanomezantsoa Doannas",
+        "url": "https://localhost.netlify.app",
+        "sameAs": [
+        "https://www.facebook.com/donnas",
+        "https://twintter.com/donnas"],
+        "jobTitle": "web Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Portfolio Donnas"
+        }   
+    }    
+    </script>
+
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio - Rafanomezantsoa Donnas</title>
+    <meta name="description" 
+    content="pejy portfolio an'i Rafanomezantsoa Donnas, mpianatra amin'ny fanamboarana tranonkala.">
+    <meta name="author" content="Rafanomezantsoa Donnas">
+    <meta name="keywords" 
+    content="portfolio, web, tranonkala, html, css, mpanambotra, development, Donnas, Malagasy">
+
+    <!-- Fizarana amin'ny tambajotra sosialy -->
+     <meta property="og:title" content="Portfolio - Rafanomezantsoa Donnas">
+     <meta property="og:description"
+     content="Jereo ny portfolio-n'i Donnas, mpanambotra tranonkala avy eto Madagasikara.">
+     <meta property="og.image" 
+     content="https://localhost.netlify.app/img/profile.png">
+     <meta property="og.url"
+     content="htpps://localhost.netlify.app/index.html">
+     <meta property="og.type"
+     content="website">
+
+     <meta name="twintter:card"
+     content="summary_large_image">
+     <meta name="twintter:title"
+     content="Portfolio - Rafanomezantsoa Donnas">
+     <meta name="twintter:description"
+     content="Mpanamboatra tranonkala avy eto Madagasikara.">
+     <meta name="twintter:image"
+     content="https://localhost.netlify.app/img/profile.png">
+
+     
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img/png" href="img/favicon.png">
+</head>
+<body>
+
+    <!-- Button fizarana-->
+     <p>
+       <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost.netlify.app/index.html"
+    target="_blank">Facebook</a> |
+       <a href="https://twintter.com/intent/tweet?url=https://localhost.netlify.app/index.html&tex=Jereo%20portfolio-ko!" target="_blank">Twintter</a>
+    </p>
+    <header>
+        <!-- Atolotra eto ny lohateny sy navigation -->
+        <div class="logo">
+            <h1>Rafanomezantsoa Donnas</h1>
+            <p>Mpanamboatra tranonkala</p>
+        </div>
+
+        <button class="menu-toggle" onclick="toggeMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="menu">
+            <a href="Index.html">Fandraisana</a>
+            <a href="about.html">Momba ahy</a>
+            <a href="projects.html">Tetikasa</a>
+            <a href="contact.html">Mifandraisa</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Atolotra eto ny votoatiny -->
+        <section id="momba">
+            <h2>Momba Ahy</h2>
+            <p>Izaho dia mpianatra manokana mianatra ny fanamboarana tranonkala. Tiako ny HTML, CSS, ary JavaScript.</p>
+            <img src="img/momba.jpg" alt="Momba ahy" class="profile-img">
+        </section>
+
+        <section id="skills">
+            <h2>Fahaiza-manao</h2>
+            <div class="skills">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>Flexbox</div>
+                <div>Responsive Design</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

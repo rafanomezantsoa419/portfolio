@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF_8"?>
+<urlset xmlns="https://www.sitemaps.org/shemas/sitemap/0.9">
+
+   <url>
+<loc>https://localhost.netlify.app/index.html</loc>
+     <priority>1.00</priority>   
+   </url>
+
+   <url>
+<loc>https://localhost.netlify.app/about.html</loc>
+     <priority>0.80</priority>
+   </url>
+
+   <url>
+<loc>https://localhost.netlify.app/projects.html</loc>
+     <priority>0.80</priority>
+   </url>
+
+   <url>
+<loc>https://localhost.netlify.app/contact.html</loc>
+     <priority>0.80</priority>
+   </url>
+   
+</urlset>
